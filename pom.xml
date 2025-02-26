@@ -31,6 +31,7 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+   <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
@@ -41,8 +42,6 @@
             </exclusion>
         </exclusions>
     </dependency>
-
-    <!-- Add dependency for external Tomcat -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-tomcat</artifactId>
@@ -61,4 +60,3 @@
 	</build>
 
 </project>
-<packaging>war</packaging>
